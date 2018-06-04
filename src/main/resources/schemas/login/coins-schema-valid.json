@@ -1,0 +1,23 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "payment": {
+      "$id": "/properties/payment",
+      "type": "object",
+      "properties": {
+        "amount": {
+          "$id": "/properties/payment/properties/amount",
+          "type": "number",
+          "title": "The Amount Schema ",
+          "default": 0,
+          "examples": [
+            20.90999984741211
+          ]
+        }
+      }
+    }
+  }
+}
